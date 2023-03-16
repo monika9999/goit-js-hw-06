@@ -1,1 +1,1 @@
-# goit-js-hw-06
+https://monika9999.github.io/goit-js-hw-06/
