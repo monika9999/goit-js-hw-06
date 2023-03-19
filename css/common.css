@@ -29,4 +29,5 @@ button {
   align-items: center;
   list-style: none;
   gap: 20px;
+  max-width: 200px;
 }
