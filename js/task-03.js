@@ -18,7 +18,7 @@ console.log(list);
 
 images.forEach((image) => {
   const imageItem = document.createElement("li");
-  galleryLi.append(imageItem);
+  list.append(imageItem);
   imageItem.insertAdjacentHTML(
     "beforeend",
     `<img class="image" src=${image.url} alr=${image.alt} />`
