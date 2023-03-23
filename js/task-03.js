@@ -16,9 +16,12 @@ const images = [
 const list = document.querySelector(".gallery");
 console.log(list);
 
+list.style.width = "200px";
+
 images.forEach((image) => {
   const imageItem = document.createElement("li");
   list.append(imageItem);
+  imageItem.classList.add("gallery");
   imageItem.insertAdjacentHTML(
     "beforeend",
     `<img class="image" src=${image.url} alr=${image.alt} />`
